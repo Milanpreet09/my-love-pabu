@@ -4,7 +4,6 @@
 
     <link rel="stylesheet" href="style.css">
     <title>Environmental Awareness</title>
-</head>
 <body>
     <header>
         <h1> Environment Awareness</h1>
