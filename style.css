@@ -1,0 +1,93 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Base styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2f4f4f; /* Dark slate gray background */
+    color: #f0f8ff; /* Alice blue text for good contrast */
+}
+
+header, footer {
+    background-color: #228b22; /* Forest green background for header and footer */
+    color: #f0f8ff; /* Alice blue text */
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-weight: 700;
+}
+
+nav {
+    margin: 10px 0;
+}
+
+nav a.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: #32cd32; /* Lime green background */
+    color: #2f4f4f; /* Dark slate gray text */
+    text-decoration: none;
+    font-weight: 500;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+nav a.button:hover {
+    background-color: #228b22; /* Forest green hover effect */
+    transform: translateY(-2px);
+}
+
+.container {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    background-color: #556b2f; /* Dark olive green background */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+h2 {
+    color: #f0f8ff; /* Alice blue text */
+    font-weight: 700;
+}
+
+form label {
+    font-weight: 500;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #6b8e23; /* Olive drab border */
+    border-radius: 4px;
+    background-color: #8fbc8f; /* Dark sea green background */
+    color: #2f4f4f; /* Dark slate gray text */
+}
+
+form input[type="submit"] {
+    background-color: #32cd32; /* Lime green background */
+    color: #2f4f4f; /* Dark slate gray text */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+form input[type="submit"]:hover {
+    background-color: #228b22; /* Forest green hover effect */
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
